@@ -7,7 +7,7 @@ import retrofit2.http.Query
 
 interface CurrencyRateApi {
 
-    @GET("latest.json?app_id=c1f67b2da4a34744a85f65bfff71e517")
+    @GET("latest.json?app_id=<APP_ID>")
     suspend fun fetchRates():Response<String>
 
 //    @GET("latest.json")
